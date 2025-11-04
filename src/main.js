@@ -77,10 +77,10 @@ form.addEventListener("submit", async (e) => {
             <img src="${img.webformatURL}" alt="${img.tags}" loading="lazy" />
           </a>
           <div class="info">
-            <p><b>Likes:</b> ${img.likes}</p>
-            <p><b>Views:</b> ${img.views}</p>
-            <p><b>Comments:</b> ${img.comments}</p>
-            <p><b>Downloads:</b> ${img.downloads}</p>
+            <p><b>Likes</b> ${img.likes}</p>
+            <p><b>Views</b> ${img.views}</p>
+            <p><b>Comments</b> ${img.comments}</p>
+            <p><b>Downloads</b> ${img.downloads}</p>
           </div>
         </li>
       `
