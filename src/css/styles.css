@@ -61,12 +61,12 @@ button:hover {
 .gallery-item img {
   width: 100%;
   display: block;
-  height: 300px;
+  height: 250px;
 }
 
 .info {
   padding: 10px;
-  font-size: 18px;
+  font-size: 12px;
   color: #333;
   display: flex;
   justify-content: space-around;
