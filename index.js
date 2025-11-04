@@ -4,10 +4,10 @@ import{S as u,i as a}from"./assets/vendor-5ObWk2rO.js";(function(){const r=docum
             <img src="${e.webformatURL}" alt="${e.tags}" loading="lazy" />
           </a>
           <div class="info">
-            <p><b>Likes:</b> ${e.likes}</p>
-            <p><b>Views:</b> ${e.views}</p>
-            <p><b>Comments:</b> ${e.comments}</p>
-            <p><b>Downloads:</b> ${e.downloads}</p>
+            <p><b>Likes</b> ${e.likes}</p>
+            <p><b>Views</b> ${e.views}</p>
+            <p><b>Comments</b> ${e.comments}</p>
+            <p><b>Downloads</b> ${e.downloads}</p>
           </div>
         </li>
       `).join("");c.innerHTML=t,h.refresh()}catch(o){l(),a.error({title:"Error",message:"Something went wrong! Please try again later.",position:"topRight"}),console.error("Fetch error:",o)}});
